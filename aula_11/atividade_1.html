@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <img 
+     src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-qT_RclXRsF3Lrw5tga56CYg_6uwIGjofaLkZTCSHz-QmhDUoiPwTNrcANiVS6kY3m51M4Z9rNAuxeh_k3xrrpgN3YJFwAFbL5uC1QktIG1t96Lc1XVu-M5sPTgF5WiysXtRfRtXn7SViohGk4h2ISUhvYeWvoAUzhoM7q68pMzlYlyYGv9GL/s16000/coral%20logo.jpg" width="550">
+ 
+ 
+     <h1>sistema de controle de salarios e contrataçao</h1> 
+<p>seja bem vindo ao sistema de controle de salarios e contrataçao</p>
+
+ 
+<hr>
+<h2> preencha o formulario</h2>
+<form action="submit" id="formulario">
+<label for="nome">nome:</label><br>
+<input type="text" id="nome"><br><br> 
+
+<label for="cargo">digite seu cargo:</label><br>
+<input type="text" id="nome"><br><br>
+
+<label for="salario">digite seu salario:</label><br>
+<input type="number" id="salario" step="0.1"><br><br>
+<input type="submit" value="enviar">
+
+</form>
+    <script>
+
+        const form = document.querySelector("#formulario")
+        form.addEventListener("submit", function(event) {
+        event.preventDefault()
+        const nome = document.querySelector("#nome").value
+        const cargo = document.querySelector("#cargo").value
+        const salario = document.querySelector("#salario").value
+        alert ("formulario preenchido!" + nome + " " + cargo + " " + salario)
+
+            </script>
+ <hr>
+ <h2>tabela de controle</h2>
+ <table>
+     <thead>
+        <tr>
+            <th>nome</th>
+        <th>cargo</th>
+        <th>salario</th> 
+        
+    </body>
+</html>
