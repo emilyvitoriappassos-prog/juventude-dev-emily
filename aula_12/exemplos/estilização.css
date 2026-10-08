@@ -1,9 +1,17 @@
  body {
-    background: #3A19FF;
+    background: #8BDBE4;
     font-family: Arial, sans-serif; 
 }  
 
  h1 {
-    color: #DEFF19;
+    color: hsl(171, 25%, 38%);
     
  } 
+
+ .container {
+  text-align: center;
+}
+
+.titulo-centralizado {
+  text-align: center;
+}
